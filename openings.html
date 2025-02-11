@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobility Science Lab</title>
+    <title>Mobility Science Lab - Openings</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { font-family: Arial, sans-serif; }
@@ -13,8 +13,12 @@
             text-align: center;
             padding: 150px 20px;
         }
-        .section-title { text-align: center; margin: 40px 0; }
+        .opening-list { max-width: 800px; margin: 0 auto; }
+        .opening-item { margin-bottom: 20px; }
         .footer { background: #222; color: white; text-align: center; padding: 20px 0; }
+        a {
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -22,7 +26,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Mobility Science Lab</a>
+            <a class="navbar-brand" href="index.html">Mobility Science Lab</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,14 +43,30 @@
     
     <!-- Hero Section -->
     <div class="hero-section">
-        <h1>Welcome to the Mobility Science Lab</h1>
-        <p>Exploring the future of mobility, AI, and technology</p>
+        <h1>Join Our Team</h1>
+        <p>Explore exciting career opportunities at the Mobility Science Lab</p>
     </div>
     
-    <!-- About Section -->
-    <div id="about" class="container py-5">
-        <h2 class="section-title">About Us</h2>
-        <p>We are dedicated to researching cutting-edge mobility technologies, including AI-driven transportation solutions.</p>
+    <!-- Job Openings Section -->
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Current Openings</h2>
+        <div class="opening-list">
+            <div class="opening-item">
+                <h4><a href="#">Research Scientist</a></h4>
+                <p><strong>Location:</strong> City, Country</p>
+                <p><strong>Requirements:</strong> PhD in Robotics or related field, experience with machine learning.</p>
+            </div>
+            <div class="opening-item">
+                <h4><a href="#">Software Engineer</a></h4>
+                <p><strong>Location:</strong> City, Country</p>
+                <p><strong>Requirements:</strong> Experience with Python, C++, and distributed systems.</p>
+            </div>
+            <div class="opening-item">
+                <h4><a href="#">Data Analyst</a></h4>
+                <p><strong>Location:</strong> City, Country</p>
+                <p><strong>Requirements:</strong> Strong statistical analysis skills, knowledge of SQL and Python.</p>
+            </div>
+        </div>
     </div>
     
     <!-- Footer -->
