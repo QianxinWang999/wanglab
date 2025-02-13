@@ -3,14 +3,3 @@
     font-weight: bold;
     padding: 16px;
   }
-<style>
-    body { font-family: Arial, sans-serif; }
-    .hero-section {
-        background: url('your-hero-image.jpg') center/cover no-repeat;
-        color: white;
-        text-align: center;
-        padding: 150px 20px;
-    }
-    .section-title { text-align: center; margin: 40px 0; }
-    .footer { background: #28a745; color: white; text-align: center; padding: 20px 0; } /* 修改这里 */
-</style>
